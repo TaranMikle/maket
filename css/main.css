@@ -1,0 +1,165 @@
+.footer {
+	position: absolute;
+	width: 100%;
+	background-color: #000;
+	bottom: 0;
+	font-size: 0;
+}
+
+.container {
+	max-width: 1170px;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0 15px
+}
+
+.text {
+	font-size: 14px; 
+	color: #fff;
+	text-decoration: none;
+}
+
+.column {
+	display: inline-block;
+	width: 25%;
+	margin-top: 10px; 
+}
+
+.second {
+	vertical-align: top;
+}
+
+.column_Item {
+	margin-top: 5px; 
+}
+
+.btn {
+	position: absolute;
+	top: 25px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid;
+	padding: 9px;
+	font-size: 14px;
+}
+
+.footer_cp {
+	color: #fff
+}
+
+.footer_cp a {
+	color: #fff
+}
+
+.footer_Item {
+	font-size: 14px;
+	display: inline-block;
+	width: 33%;
+	margin: 20px 40px;
+
+}
+
+@media screen and (max-width: 970px) {
+	.footer {
+	position: absolute;
+	width: 100%;
+	background-color: #000;
+	bottom: 0;
+	font-size: 0;
+	}
+
+	.text {
+		font-size: 14px; 
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.column {
+		display: inline-block;
+		width: 25%;
+		margin-top: 10px; 
+	}
+
+	.column_Item {
+		margin-top: 5px; 
+	}
+
+	.btn {
+		position: absolute;
+		top: 25px;
+		display: inline-block;
+		color: #fff;
+		text-decoration: none;
+		border: 1px solid;;
+		padding: 9px;
+		font-size: 14px;
+	}
+
+	.footer_cp {
+		color: #fff
+	}
+
+	.footer_cp a {
+		color: #fff
+	}
+
+	.footer_Item {
+		font-size: 14px;
+		display: inline-block;
+		width: 33%;
+		margin: 20px 40px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer {
+	position: absolute;
+	width: 100%;
+	background-color: #000;
+	bottom: 0;
+	font-size: 0;
+	}
+
+	.text {
+		font-size: 14px; 
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.column {
+		width: 51%;
+		margin-top: 0; 
+	}
+
+	.column_Item {
+		margin-top: 5px; 
+	}
+
+	.btn {
+		position: absolute;
+		top: 25px;
+		display: inline-block;
+		color: #fff;
+		text-decoration: none;
+		border: 1px solid;;
+		padding: 9px;
+		font-size: 14px;
+	}
+
+	.footer_cp {
+		color: #fff
+	}
+
+	.footer_cp a {
+		color: #fff
+	}
+
+	.footer_Item {
+		font-size: 14px;
+		display: inline-block;
+		width: 33%;
+		margin:  60px 40px 20px 40px;
+	}
+}
+
